@@ -4,7 +4,9 @@ This laravel vue admin panel is build using Laravel, Vuejs, Vuetify, Mdi-Icons i
 Copyrights © abrsoftwaretechnologies@gmail.com All Rights Reserved
 Getting strated
 composer install,
-npm install && npm run dev,
+first rename .env.example,
+then php artisan key:generate,
+and setup your database connection,
 php artisan migrate,
 php artisan tinker,
 then run this line,
